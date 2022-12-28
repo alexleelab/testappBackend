@@ -18,5 +18,8 @@
   },
   "scripts": {
     "start": "node server.js"
+  },
+  "engines":{
+    "node":"v19.3.0"
   }
 }
