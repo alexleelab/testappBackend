@@ -17,7 +17,7 @@
     "@babel/preset-env": "^7.20.2"
   },
   "scripts": {
-    "start": "node server.js"
+    "start": "nodemon server.js --ext js --exec babel-node"
   },
   "engines":{
     "node":"v19.3.0"
